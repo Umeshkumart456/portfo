@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./static/contactstyle.css">
+    <link rel="icon" href="./static/flower.ico">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contact-div">
+        <form action="submit_form" method="post">
+            <div class="input-group">
+                <input  name="name"  type="text" id="name" required>
+                <label for="name"><i class="fas fa-user"></i> Name</label>
+            </div>
+            <div class="input-group">
+                <input  name="number" type="number" id="number" required>
+                <label for="number"><i class="fas fa-phone"></i> Phone No</label>
+            </div>
+            <div class="input-group">
+                <input name="email"  type="email" id="email" required>
+                <label for="email"><i class="fas fa-envelope"></i> Email Id</label>
+            </div>
+            <div class="input-group">
+                <textarea name="message" id="message"  rows="8" required></textarea>
+                <label for="message"><i class="fas fa-comments"></i> Your Message</label>
+            </div>
+            <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</body>
+
+</html>
